@@ -1,0 +1,48 @@
+/* OS LAB ASSIGNMENT */
+1.  Display the system date in date/month/year format
+SOL:date +%d/%m/%Y
+
+2.  Display the calendar of April of 2015 year
+SOL:cal 04 2015
+
+3.  Display the username
+SOL:whoami
+
+4.  List all the files of current directory and store it in a file named as filelist
+SOL:ls filelist
+
+5.  Create a file using cat command
+SOL:cat > filename
+
+6.  Display one file per line
+SOL:cat -n filename
+
+7.  Display file in reverse order
+SOL:tac filename
+
+8.  Display directory information
+SOL:ls -1
+
+9.  Display hidden files
+SOL:ls -a
+
+10. How to display current working directory
+SOL:pwd
+
+11. Change the permission of a file
+SOL:chmod +rwx filename (to add permissions)
+    chmod -rwx directoryname (to remove permissions) 
+    chmod +x filename (to allow executable permissions)
+    chmod -wx filename (to take out write and executable permissions)
+
+12. Find the number of lines using wc
+SOL:wc -l filename
+
+13. Prints the file contents with their line
+SOL:nl filename
+
+14. Display the file names that matches the pattern
+SOL:find /path/to/search -type f -name "pattern"
+
+15. Show the number while displaying the output using grep
+SOL:grep -n "pattern" filename
